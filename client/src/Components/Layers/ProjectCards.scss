@@ -1,0 +1,29 @@
+.project-cards {
+  height: 75vh;
+  .projectcard {
+    height: 60vh;
+    width: 41vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 40px;
+    p,
+    h5 {
+      font-family: Helvetica;
+      font-size: 35px;
+      color: #2c6b5a;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.projectimage {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 20px;
+  padding: 15px;
+}
