@@ -1,21 +1,11 @@
-import WaterWave from "react-water-wave";
-import React from "react";
-import Navbar from "../Navbar";
-import "./Intro.scss";
+import React from 'react';
+import Navbar from '../Navbar';
+import './Intro.scss';
 
 const Intro = () => {
   return (
     <>
       <div className="water-color">
-        {/* <WaterWave
-          style={{
-            width: "93vw",
-            height: "83vh",
-            position: "absolute",
-            zIndex: "0",
-          }}
-          pertrubance="1"
-        ></WaterWave> */}
         <div className="front">
           <Navbar className="color" />
         </div>
