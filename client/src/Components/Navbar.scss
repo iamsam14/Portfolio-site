@@ -1,12 +1,12 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
 .navbar {
   display: flex;
-  text-align: left;
   font-size: 30px;
   font-family: Helvetica;
   padding-left: 4vw;
-  margin-right: 7vw;
   div {
-    padding: 5vh 4vw 0vh 2vw;
+    padding: 1.5vh 4vw 0vh 2vw;
   }
   a {
     font-weight: bold;

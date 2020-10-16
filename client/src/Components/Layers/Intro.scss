@@ -1,9 +1,9 @@
 .intro {
-  height: 75vh;
-  padding-top: 8vh;
+  height: 5rm;
+  padding-top: 17rem;
+  padding-bottom: 5rem;
   margin-bottom: 5vh;
   .color {
-    margin-right: 4vw;
     padding-left: 6vw;
     font-family: Helvetica;
     color: #2c6b5a;
@@ -15,8 +15,10 @@
       margin-bottom: 44px;
     }
     .description {
+      display: inline-block;
+      text-align: left;
       font-size: 30px;
-      margin-right: 35vw;
+      // margin-right: 35vw;
     }
     p {
       font-size: 25px;
@@ -38,13 +40,10 @@
   }
 }
 .water-color {
-  background-image: url("../images/bgll.png");
+  background-image: url('../images/bgll.png');
   background-size: 100% 100%;
   background-color: #96efd9;
-  margin-right: 7vw;
-  z-index: -4;
 }
 .front {
   position: absolute;
-  z-index: 2;
 }
