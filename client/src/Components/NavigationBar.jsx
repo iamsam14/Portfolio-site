@@ -5,7 +5,7 @@ import './Navbar.scss';
 const NavigationBar = () => {
   return (
     <Navbar bg="light" variant="" expand="lg" fixed="top">
-      <Nav>
+      <Nav className="small">
         <Nav.Link href="https://github.com/iamsam14">GitHub</Nav.Link>
         <Nav.Link href="https://www.linkedin.com/in/chefsrobles">
           LinkedIn
