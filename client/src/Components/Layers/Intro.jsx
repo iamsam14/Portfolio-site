@@ -1,6 +1,5 @@
 import React from 'react';
 import NavigationBar from '../NavigationBar';
-import './Intro.scss';
 
 const Intro = () => {
   return (
