@@ -163,3 +163,25 @@ h2 {
     }
   }
 }
+
+// media query
+@mixin media-sm {
+  @media screen and (min-width: 300px) and (max-width: 765px) {
+    
+  }
+}
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}
