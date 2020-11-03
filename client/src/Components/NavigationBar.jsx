@@ -10,7 +10,7 @@ const NavigationBar = () => {
           LinkedIn
         </Nav.Link>
         <Nav.Link
-          href="https://www.dropbox.com/s/cl8nk3lkdydldm9/Sam_Resume_Developer.docx?dl=0"
+          href="https://www.dropbox.com/s/v6ro3cg0n0y8fgb/Sam_Resume_Developer%20%283%29.docx?dl=0"
           download
         >
           Resume
@@ -18,7 +18,6 @@ const NavigationBar = () => {
         <Nav.Link href="mailto:sam.robles.199@gmail.com">Contact</Nav.Link>
       </Nav>
     </Navbar>
-    
   );
 };
 
