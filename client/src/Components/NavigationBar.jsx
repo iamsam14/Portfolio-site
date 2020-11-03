@@ -10,7 +10,7 @@ const NavigationBar = () => {
           LinkedIn
         </Nav.Link>
         <Nav.Link
-          href="https://www.dropbox.com/s/v6ro3cg0n0y8fgb/Sam_Resume_Developer%20%283%29.docx?dl=0"
+          href="https://www.dropbox.com/home?preview=Sam_Resume_Developer.docx"
           download
         >
           Resume
