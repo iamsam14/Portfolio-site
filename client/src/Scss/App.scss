@@ -4,8 +4,6 @@
 }
 
 // Navbar
-@import 'node_modules/bootstrap/scss/bootstrap';
-
 .navbar {
   display: flex;
   font-size: 30px;
@@ -63,7 +61,7 @@
   }
 }
 .water-color {
-  background-image: url('./Components/images/bgll.png');
+  background-image: url('../Components/images/bgll.png');
   background-size: 100% 100%;
   background-color: #96efd9;
 }
@@ -72,24 +70,31 @@
 }
 
 // ProjectCards
-.projectcard {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding: 40px;
-  p,
-  h5 {
-    font-family: Helvetica;
-    font-size: 35px;
-    color: #2c6b5a;
-  }
-}
-
-.container {
+.projectscontainer {
   display: flex;
   justify-content: center;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  // display: -webkit-flex;
+  margin-left: -3rem;
+
+  .projectcard {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    .flexcard {
+      // padding: 20px;
+      height: 500px;
+      width: 400px;
+      margin: 5rem;
+      p,
+      h5 {
+        font-family: Helvetica;
+        font-size: 35px;
+        color: #2c6b5a;
+      }
+    }
+  }
 }
 
 .projectimage {
@@ -130,7 +135,7 @@ h2 {
     justify-content: space-between;
     border: 2px solid #2c6b5a;
     transition: transform 0.2s ease-in-out;
-    background-image: url('./Components/images/bgll.png');
+    background-image: url('../Components/images/bgll.png');
 
     &:hover {
       transform: translate(8px, -8px);
@@ -168,7 +173,6 @@ h2 {
 // media query
 @mixin media-sm {
   @media screen and (min-width: 300px) and (max-width: 765px) {
-    
   }
 }
 @mixin media-md {
