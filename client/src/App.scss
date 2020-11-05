@@ -73,7 +73,8 @@
 
 // ProjectCards
 .projectcard {
-  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
   text-align: left;
   padding: 40px;
   p,
@@ -88,7 +89,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  display: -webkit-flex;
+  // display: -webkit-flex;
 }
 
 .projectimage {
