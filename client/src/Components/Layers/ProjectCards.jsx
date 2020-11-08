@@ -1,4 +1,5 @@
 import React from 'react';
+import FoodBlog from '../images/food.png';
 import Cuenta from '../images/Cuenta.png';
 import trivia from '../images/trivia.png';
 
@@ -7,11 +8,20 @@ const ProjectCards = () => {
     <div className="projectscontainer">
       <div className="projectcard">
         <div className="flexcard">
+          <a href="https://food--blog.herokuapp.com/">
+            <img src={FoodBlog} className="projectimage" alt="projectimg" />
+          </a>
+          <h5>Food blog</h5>
+          <p>MERN | JWebToken | Bootstrap | Heroku</p>
+        </div>
+      </div>
+      <div className="projectcard">
+        <div className="flexcard">
           <a href="https://cuenta-app-final.herokuapp.com/">
             <img src={Cuenta} className="projectimage" alt="projectimg" />
           </a>
           <h5>Cuenta</h5>
-          <p>Heroku | Stripe | QR Scanner | MERN</p>
+          <p>MERN | Stripe | QR Scanner | Heroku</p>
         </div>
       </div>
       <div className="projectcard">

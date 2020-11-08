@@ -12,7 +12,10 @@ const Intro = () => {
             I am a Junior Web Developer. I take pride in my ability to
             comprehend complex concepts and implement them in my code.
           </p>
-          <p>React | Javascript | HTML | CSS | Sass | Bootstrap | JSON | Express | Resful API's | Node.js | MongoDB</p>
+          <p>
+            MERN | Javascript | HTML | CSS | Sass | Bootstrap | JSON | RESTful
+            API's
+          </p>
         </div>
       </div>
     </div>
