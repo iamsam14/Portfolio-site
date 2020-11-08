@@ -1,30 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import WaterWave from 'react-water-wave';
 import NavigationBar from '../NavigationBar';
 
 const Intro = () => {
-  let waterHeight;
-  waterHeight =
+  const [compHeight, setCompHeight] = useState('675px');
+  useEffect(() => {
     window.innerWidth >= 1299
-      ? '675px'
+      ? setCompHeight('675px')
       : window.innerWidth < 1299 && window.innerWidth >= 1019
-      ? '800px'
+      ? setCompHeight('800px')
       : window.innerWidth < 1019 && window.innerWidth >= 674
-      ? '879px'
+      ? setCompHeight('879px')
       : window.innerWidth < 674 && window.innerWidth >= 652
-      ? '921px'
+      ? setCompHeight('921px')
       : window.innerWidth < 652 && window.innerWidth >= 537
-      ? '1041px'
+      ? setCompHeight('1041px')
       : window.innerWidth < 537 && window.innerWidth >= 526
-      ? '1162px'
+      ? setCompHeight('1162px')
       : window.innerWidth < 526
-      ? '1244px'
-      : '675px';
+      ? setCompHeight('1244px')
+      : setCompHeight('675px');
+  }, [window.innerWidth]);
   return (
     <div className="water-color">
       <NavigationBar className="color" />
       <WaterWave
-        style={{ minHeight: waterHeight, width: '100%', position: 'absolute' }}
+        style={{ minHeight: compHeight, width: '100%', position: 'absolute' }}
       />
       <div className="intro color">
         <div className="color" id="waterCanvas">
