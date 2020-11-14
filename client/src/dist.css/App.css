@@ -27,12 +27,6 @@
   z-index: 2;
 }
 
-#water-wave {
-  height: '60%';
-  width: '100%';
-  position: 'absolute';
-}
-
 .intro {
   padding-top: 17rem;
   padding-bottom: 5rem;
