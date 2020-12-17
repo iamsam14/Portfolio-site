@@ -11,6 +11,12 @@ const Projects = () => {
       .then((data) => setProjectRepos(data.data));
   }, []);
 
+  const formatDate = (unformattedDate) => {
+    const date = new Date(unformattedDate);
+    const format = { month: 'short', day: '2-digit', year: 'numeric' };
+    return date.toLocaleString('en-US', format);
+  };
+
   return (
     <>
       <div className="projects">
@@ -30,6 +36,12 @@ const Projects = () => {
                         <h4 key={data.name}>{data.name}</h4>
                         <br />
                         <h5 key={data.node_id}>{data.language}</h5>
+                        <h6 key={data.id + 1}>
+                          Created at: {formatDate(data.created_at)}
+                        </h6>
+                        <h6 key={data.id + 1}>
+                          Last updated at: {formatDate(data.updated_at)}
+                        </h6>
                       </div>
                     </a>
                   </div>
