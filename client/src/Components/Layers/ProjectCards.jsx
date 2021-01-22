@@ -8,20 +8,20 @@ const ProjectCards = () => {
     <div className="projectscontainer">
       <div className="projectcard">
         <div className="flexcard">
-          <a href="https://food--blog.herokuapp.com/">
+          <a href="https://my-food-blog.netlify.app">
             <img src={FoodBlog} className="projectimage" alt="projectimg" />
           </a>
           <h5>Food blog</h5>
-          <p>MERN | JWebToken | Bootstrap | Heroku</p>
+          <p>MERN | JWebToken | Bootstrap | Netlify</p>
         </div>
       </div>
       <div className="projectcard">
         <div className="flexcard">
-          <a href="https://cuenta-app-final.herokuapp.com/">
+          <a href="https://cuenta-app.netlify.app">
             <img src={Cuenta} className="projectimage" alt="projectimg" />
           </a>
           <h5>Cuenta</h5>
-          <p>MERN | Stripe | QR Scanner | Heroku</p>
+          <p>MERN | Stripe | QR Scanner | Bootstrap</p>
         </div>
       </div>
       <div className="projectcard">
