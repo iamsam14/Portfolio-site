@@ -8,7 +8,7 @@ client/.pnp
 .pnp.js
 client/.pnp.js
 yarn.lock
-/client/yarn.lock
+client/yarn.lock
 
 # testing
 client/coverage
