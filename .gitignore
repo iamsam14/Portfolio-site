@@ -6,9 +6,9 @@ client/node_modules
 /.pnp
 client/.pnp
 .pnp.js
-client/.pnp.js
-yarn.lock
-client/yarn.lock
+/client/.pnp.js
+/yarn.lock
+/client/yarn.lock
 
 # testing
 client/coverage
