@@ -24,5 +24,9 @@
     "heroku-postbuild": "cd client && yarn && yarn run build",
     "net-build": "cd client && npm install && npm run build",
     "prettify": "prettier '*/**/*.js' '*/**/*.jsx' '*/**/*.html' '*/**/*.css' --write"
+  },
+  "resolutions": {
+    "yargs-parser": "^13.1.2",
+    "mem": "4.0.0"
   }
 }
